@@ -34,9 +34,9 @@ gLinkedListNode* mergeGenericLinkedList(gLinkedListNode* node1, uint32_t size1, 
         auxNode1 = auxNode1->next;
         size1--;
 
-        tempFront->next = auxNode2;
+        tempRear->next = auxNode2;
 
-        tempFront = auxNode2;
+        tempRear = auxNode2;
         auxNode2 = auxNode2->next;            
         size2--;
     }
