@@ -68,14 +68,7 @@ To include this repository locally in your project directory, follow these steps
     <li><code>git clone https://github.com/JamesStewart314/C-Language-Codes.git</code></li>
 </ul>
 
-Now, if everything went as expected, this repository should be present locally on your computer. In this context, the hierarchical arrangement of directories present in your project should resemble something as illustrated in the following image:
-<br></br>
-
-<div align="center">
-    
-![2024-05-20_22 51 01-removebg-preview](https://github.com/JamesStewart314/C-Language-Codes/assets/133912146/a3d8d5a3-c597-499e-a189-ce19b4dbddb4)
-
-</div>
+Now, if everything went as expected, this repository should be present locally on your computer.
 
 Finally, to include the linked list functionalities in your project, open your code in an IDE and add, at the top of the file — preferably adjacent to the already existing inclusion directives — the relative path to the header file that contains the prototypes of the linked list functions of this module. In the example given above, the specific path to include the header file in the "MainCode.c" code would be:
 
